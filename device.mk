@@ -160,8 +160,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     device/huawei/angler/init.angler.qseecomd.sh:system/bin/init.angler.qseecomd.sh
 
-PRODUCT_COPY_FILES += \
-    branding/bootanimation.zip:system/media/bootanimation.zip
+-include branding/branding.mk
 
 PRODUCT_TAGS += dalvik.gc.type-precise
 
